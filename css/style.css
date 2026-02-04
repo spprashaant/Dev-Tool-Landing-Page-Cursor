@@ -266,3 +266,12 @@ h2.feature-card-heading {
     margin-top: 100px;
     padding-bottom: 40px;
 }
+
+.final-cta-heading h2 {
+    font-size: 72px;
+    text-align: center;
+}
+
+.final-cta-container .hero-cta {
+    margin: 0 auto;
+}
