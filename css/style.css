@@ -12,7 +12,7 @@
     --color-background-card: rgb(27, 25, 19);
     --color-background-card: rgb(27, 25, 19);
     --color-foreground: #edecec; /* rgb(237, 236, 236); */
-    --color-foreground-muted: #d7d6d5; /* rgb(215, 214, 213); */
+    --color-foreground-muted: #e4e4e499; /* rgb(215, 214, 213); */
     --font-family: 'Geist', system-ui, 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     --max-width: 1317px;
 }
@@ -134,4 +134,37 @@ h1 {
     font-size: 16px;
     line-height: 24px;
     display: block;
+}
+
+.feature-section {
+    display: flex;
+    background-color: var(--color-background-card);
+    padding: 15px 15px;
+}
+
+.fs-text {
+    margin: auto 0;
+    padding: 20px
+}
+
+.fs-text h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.fs-text p {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--color-foreground-muted);
+    margin-bottom: 15px;
+}
+
+.btn-tertiary {
+    color: var(--color-primary);
+    font-size: 16px;
+}
+
+.btn-tertiary:hover {
+    cursor: pointer;
 }
